@@ -1,5 +1,5 @@
 {
-  "name": "is-valid-variant-bem",
+  "name": "is-variant-bem",
   "version": "0.0.0",
   "description": "Checks if a string is valid (double hyphen) variant BEM.",
   "homepage": "www.radioactivehamster.com",
@@ -7,6 +7,9 @@
     "name": "James Benner",
     "email": "james.benner@gmail.com",
     "url": "www.jamesbenner.com"
+  },
+  "engines": {
+    "node": ">=6.2.0"
   },
   "files": [
     "lib"
@@ -29,7 +32,7 @@
     "gulp-nsp": "^2.1.0",
     "gulp-plumber": "^1.0.0"
   },
-  "repository": "jbenner-radham/is-valid-variant-bem",
+  "repository": "jbenner-radham/is-variant-bem",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"

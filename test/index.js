@@ -1,18 +1,18 @@
 'use strict';
 
-const expect            = require('chai').expect;
-const isValidVariantBem = require('../lib');
+const expect       = require('chai').expect;
+const isVariantBem = require('../lib');
 
-describe('is-valid-variant-bem', function () {
+describe('is-variant-bem', function () {
     it('should validate "block__element--modifier"', function () {
-        expect(isValidVariantBem('block__element--modifier'));
+        expect(isVariantBem('block__element--modifier'));
     });
 
     it('should validate "block__element"', function () {
-        expect(isValidVariantBem('block__element'));
+        expect(isVariantBem('block__element'));
     });
 
     it('should validate "block--modifier"', function () {
-        expect(isValidVariantBem('block--modifier'));
+        expect(isVariantBem('block--modifier'));
     });
 });
