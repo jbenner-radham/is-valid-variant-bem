@@ -1,8 +1,8 @@
 {
   "name": "is-variant-bem",
-  "version": "0.0.0",
-  "description": "Checks if a string is valid (double hyphen) variant BEM.",
-  "homepage": "www.radioactivehamster.com",
+  "version": "0.1.0",
+  "description": "Checks if a string is valid variant (double hyphen) BEM.",
+  "homepage": "https://github.com/jbenner-radham/is-variant-bem",
   "author": {
     "name": "James Benner",
     "email": "james.benner@gmail.com",
