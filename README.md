@@ -20,7 +20,7 @@ isVariantBem('block__element--modifier'); // True
 MIT © [James Benner](www.jamesbenner.com)
 
 
-[npm-image]: https://badge.fury.io/js/is-variant-bem.svg
+[npm-image]: https://img.shields.io/npm/v/is-variant-bem.svg
 [npm-url]: https://npmjs.org/package/is-variant-bem
 [travis-image]: https://travis-ci.org/jbenner-radham/is-variant-bem.svg?branch=master
 [travis-url]: https://travis-ci.org/jbenner-radham/is-variant-bem
